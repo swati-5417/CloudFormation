@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: A simple EC2 instance
+Resources:
+  MyEC2Instance1:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0ba259e664698cbfc
+      InstanceType: t2.micro
+      KeyName: test_key
+  MyEC2Instance2:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0ba259e664698cbfc
+      InstanceType: t2.micro
+      KeyName: test_key
+  MyS3bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: mytestbucket5417
