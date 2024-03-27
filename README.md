@@ -10,3 +10,5 @@ The steps involved are as follows:
 2. Upload the CFT template from your machine.
 3. Create cloudformation stack.
 4. Monitor and check the resources created.
+5. If you no longer need the resources created by the CloudFormation stack, you can delete the stack from the CloudFormation console. This will automatically delete all 
+   associated resources, including the EC2 instance and S3 bucket, to avoid incurring unnecessary costs
